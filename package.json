@@ -4,7 +4,8 @@
   "description": "Automatic webpage visiter and click ads",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Pratik Dutta",
   "license": "ISC",
@@ -17,5 +18,8 @@
     "express-ejs-layouts": "^2.5.0",
     "nodemon": "^2.0.4",
     "puppeteer": "^5.2.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
